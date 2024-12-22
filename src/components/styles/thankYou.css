@@ -1,0 +1,36 @@
+.thankYou header {
+    /* background-image: linear-gradient(to top, #9c27b0 0%, #4a148c 100%); */
+}
+
+.thankYou main {
+    padding: 320px 10px 150px 10px;
+}
+.thankYouInside {
+    width: 93%;
+    /* max-width: 1150px; */
+    margin: 0 auto;
+}
+
+.thankYou h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #4a148c;
+}
+
+.thankYou .bottomLogo {
+    width: fit-content;
+    color: #000;
+    margin-top: 35px;
+}
+
+.powered {
+    font-size: 15px !important;
+    display: block;
+    margin-bottom: 20px;
+    text-align: start !important;
+}
+
+.paraSpe {
+    color: blue;
+}

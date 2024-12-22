@@ -1,0 +1,10 @@
+.home {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: clip;
+}
+
+.home header {
+    background: unset !important;
+}

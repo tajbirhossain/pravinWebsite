@@ -1,0 +1,66 @@
+.singleReport {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 0px #ccc;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border: 1.5px solid #7f21a447;
+}
+
+.singleReport h2 {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    /* color: #9c27b0; */
+}
+
+.repTitle {
+    font-size: 12px;
+}
+
+.repTop {
+    padding: 20px 30px;
+}
+
+.reportBottom {
+    width: 100%;
+    background-color: #85858522;
+    padding: 4px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.repBottomSingle {
+    margin-right: 25px;
+}
+
+.repBottomTitle {
+    font-size: 11px;
+}
+
+.repDescSm {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+}
+.repDescSm h2, .repDescSm strong {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.reportBottom h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #515151;
+}
+
+.reportBottom .repId {
+    color: #515151;
+}

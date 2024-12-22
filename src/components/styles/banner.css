@@ -1,0 +1,146 @@
+.banner {
+    width: 100%;
+    /* background: linear-gradient(to top, #9c27b0 0%, #4a148c 100%); */
+}
+
+
+.banner-wp {
+    width: 100%;
+    padding: 0 10px;
+    padding-top: 220px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* background-image: url(/src/images/download.svg);
+    background-position: center;
+    background-repeat: repeat; */
+}
+
+
+.banner-wrap {
+    width: 93%;
+    /* max-width: 1150px; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px 30px;
+    background: #ffffff33;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.banner-wrap span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.ssww {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.ssww a {
+    width: 125px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.singlle-medias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 10px 5px;
+    transition: .3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.singlle-medias img {
+    width: 100%;
+    height: 25px;
+    object-fit: contain;
+    transition: .3s;
+    /* filter: grayscale(100%) brightness(100); */
+    filter: invert(1);
+}
+
+.singlle-medias:hover {
+    background-color: #fff;
+}
+
+.singlle-medias:hover img {
+    filter: brightness(0);
+}
+
+.singlle-medias svg {
+    fill: #fff;
+    transition: .2s;
+}
+
+
+.singlle-medias p {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 18px;
+    display: block;
+    color: #ffffffcc;
+    text-align: center;
+    transition: .2s;
+}
+
+.singlle-medias:hover p {
+    color: #9c27b0;
+}
+
+
+
+
+
+
+
+@media(max-width:1100px) {
+
+    .banner-wp {
+        padding: 0px 50px;
+        padding-top: 150px;
+    }
+}
+
+
+@media(max-width:1000px) {
+    .ssww {
+        flex-wrap: wrap;
+    }
+
+    .ssww a {
+        width: calc(100% / 4);
+    }
+}
+
+@media(max-width:600px) {
+
+    .ssww a {
+        width: calc(100% / 2);
+    }
+}
+
+
+@media(max-width:500px) {
+
+    .banner-wp {
+        padding: 0px 10px;
+        padding-top: 150px;
+    }
+}
+

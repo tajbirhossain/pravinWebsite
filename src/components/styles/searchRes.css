@@ -1,0 +1,19 @@
+.searchRes header {
+    /* background-image: linear-gradient(to top, #9c27b0 0%, #4a148c 100%); */
+}
+
+.searchRes main {
+    padding: 320px 10px 150px 10px;
+}
+
+.searchRes h1 {
+    /* text-align: center; */
+    width: 93%;
+    /* max-width: 1150px; */
+    padding: 0 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #2b354f;
+}

@@ -1,0 +1,525 @@
+.singleReportPage header {
+    /* background-image: linear-gradient(to top, #9c27b0 0%, #4a148c 100%); */
+}
+
+.singleReportPage main {
+    padding: 325px 10px 150px 10px;
+}
+
+.reportWrap {
+    width: 93%;
+    /* max-width: 1150px; */
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.reportWrap h1 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #4a148c;
+    margin-bottom: 25px;
+}
+
+.reportWrapLeft {
+    width: calc(100% - 400px);
+}
+
+.reportInfo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #efefef;
+}
+
+.infoItem {
+    width: 16%;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: #727272;
+}
+.infoItem:nth-child(2) {
+    width: 32%;
+}
+
+.infoItem span {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.infoItem span span {
+    display: block;
+    text-align: center;
+}
+
+.infoItem:last-child span {
+    display: flex;
+    align-items: center;
+}
+
+.infoItem:last-child .infoDy {
+    display: flex;
+    align-items: center;
+    flex-direction: row !important;
+}
+
+.infoItem:last-child .infoDy span {
+    display: flex;
+    align-items: center;
+}
+
+.infoItem:last-child .infoDy img {
+    width: 20px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.infoDy {
+    font-weight: normal;
+    color: #000;
+}
+
+
+.filterWrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 2px #e0e0e0;
+    margin-bottom: 35px;
+}
+
+.filterWrap a {
+    width: calc(100% / 3);
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #c6c6c6;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 600;
+    color: #595959;
+}
+
+.filterWrap a:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.filterWrap a:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-right: none;
+}
+
+.filterWrap a::after {
+    width: 0%;
+    height: 3px;
+    background-color: darkslateblue;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .3s;
+}
+
+.filterWrap a.active {
+    background-color: #473d8b44;
+    color: darkslateblue;
+}
+
+.filterWrap a.active::after {
+    width: 100%;
+}
+
+.filterWrap a:hover::after {
+    width: 100%;
+}
+
+
+
+
+.reportOverview {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 2px #e0e0e0;
+    padding: 30px 20px;
+}
+
+.overviewTitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4a148c;
+    margin-bottom: 25px;
+}
+
+
+
+.repDescWrap h2 {
+    margin-bottom: 15px;
+}
+
+.repDescWrap h3 {
+    margin: 5px 0;
+}
+
+.repDescWrap p {
+    margin-bottom: 10px;
+}
+
+.repDescWrap ul {
+    margin-bottom: 10px;
+}
+
+.repDescWrap ul li {
+    margin-left: 30px;
+}
+
+
+
+
+
+.tableCon .repDescWrap p {
+    margin-left: 20px;
+}
+
+.tableCon .repDescWrap p strong {
+    margin-left: -20px;
+}
+
+
+
+
+
+
+.reportWrapRight {
+    width: 350px;
+}
+
+.reportWrapRight h3 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.reportWrapRight form {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px -2px #ccc;
+}
+
+.reportWrapRight form small {
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+    color: red;
+}
+
+.reportWrapRight form input,
+.reportWrapRight form select,
+.reportWrapRight form button {
+    width: 100%;
+    height: 38px;
+    outline: none;
+    border-radius: 6px;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+}
+
+.reportWrapRight form input,
+.reportWrapRight form select {
+    border: 1px solid #c6c6c6;
+}
+
+.reportWrapRight form select {
+    color: #727272;
+}
+
+
+.reportWrapRight form button {
+    border: none;
+    /* background-color: #9c27b0; */
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.reportWrapRight form .inqueryInp {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.reportWrapRight form .inqueryInp textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 90px;
+    border: 1px solid #c6c6c6;
+    outline: none;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.reportWrapRight form textarea::placeholder {
+    font-size: 15px;
+}
+
+
+
+.reqSample form {
+    width: 540px;
+}
+
+.reqSample form .repFormRow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.reqSample form .reqInp {
+    width: calc(50% - 10px);
+    position: relative;
+}
+
+
+.reqSample form small {
+    color: red;
+    position: absolute;
+    left: 5px;
+    bottom: -20px;
+}
+
+.reqSample form .repFormRow input,
+.reqSample form .repFormRow select {
+    width: 100%;
+    height: 38px;
+    border: 1px solid #c6c6c6;
+    border-radius: 6px;
+    padding: 0 10px;
+    outline: none;
+}
+
+
+
+.reqSample form .repFormRow textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 80px;
+    border: 1px solid #c6c6c6;
+    border-radius: 6px;
+    padding: 10px;
+    outline: none;
+}
+
+.reqSample form button[type="submit"] {
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    /* background-color: #9c27b0; */
+    color: #fff;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-top: 25px;
+    display: block;
+}
+
+.reqSample form .btnWarn {
+    position: relative !important;
+    bottom: 0 !important;
+}
+
+
+
+
+
+.buyReport {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px -2px #ccc;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.buyTop {
+    width: 100%;
+    padding: 18px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buyTop .buyImg {
+    width: 43%;
+    height: 160px;
+}
+
+.buyTop .buyImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    box-shadow: 0px 0px 11px 3px #ccc;
+}
+
+.buyInfo {
+    width: 57%;
+    padding-left: 18px;
+}
+
+.buyInfo span {
+    font-size: 14px;
+    color: #595959;
+}
+
+.buyInfo h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+
+.starRating {
+    width: fit-content;
+    position: relative;
+}
+
+.ratingWrap {
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.starRating span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ratingWrap span {
+    color: #ffbc3b;
+}
+
+.emptyRating {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.emptyRating span {
+    color: #bebebe;
+}
+
+
+
+
+.buyBottom {
+    width: 100%;
+    padding: 18px 14px;
+    border-top: 1px solid #c6c6c6;
+}
+
+.buyBottom button {
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+    color: #2b354f;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    background: #ffbc3b;
+}
+
+.buyBottom button img {
+    width: 20px;
+    margin-right: 15px;
+}
+
+
+.rightRelated {
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.rightRelated a {
+    margin-bottom: 15px;
+    display: block;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #4a148c;
+}
+.rightRelated a:hover {
+    text-decoration: underline;
+}
+.rightRelated .single-book {
+    width: 175px !important;
+}
+
+
+
+
+
+.relatedReports {
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+}
+.relatedHeading {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.relatedHeading.dis {
+    display: block;
+}
+
+.relatedReportWrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.relatedReportWrap a {
+    width: fit-content;
+    margin-right: 15px;
+}

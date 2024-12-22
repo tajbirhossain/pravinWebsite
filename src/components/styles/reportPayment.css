@@ -1,0 +1,566 @@
+.reportPayment header {
+    /* background-image: linear-gradient(to top, #9c27b0 0%, #4a148c 100%); */
+}
+
+.reportPayment main {
+    padding: 320px 10px 150px 10px;
+}
+
+.paymentWrap {
+    width: 93%;
+    /* max-width: 1150px; */
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.paymentLeft {
+    width: 730px;
+}
+
+.paymentLeft form {
+    width: 100%;
+    padding: 35px 25px;
+    background-color: #F5F6F8;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.paymentLeft form .payInpRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.payInpWrap {
+    width: 49%;
+    position: relative;
+}
+
+.payInpWrap small {
+    position: absolute;
+    left: 5px;
+    bottom: -20px;
+    color: red;
+}
+
+.paymentLeft form .payInpRow input,
+.paymentLeft form .payInpRow select {
+    width: 100%;
+    height: 46px;
+    font-size: 1rem;
+    padding: 0 10px;
+    outline: none;
+    border: 1.2px solid #dadada;
+    border-radius: 5px;
+}
+
+.paymentItems {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+.paymentTitle {
+    margin-bottom: 20px;
+}
+
+.singlePayment {
+    height: 48px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    border-radius: 5px;
+    border: 1.5px solid rgba(43, 53, 79, 0.1);
+    color: #2B354F99;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.singlePayment.active {
+    color: #fff;
+    background-color: #483a80;
+    border: 1px solid #483a80;
+}
+
+.singlePayment span {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+
+.orderInfoWrap {
+    width: 100%;
+}
+
+.orderInfoWrap h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #161b48;
+    margin-bottom: 10px;
+}
+
+.orderRowWrap {
+    width: 100%;
+}
+
+.orderRow {
+    width: 100%;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orderRow span {
+    color: #666;
+    margin: 0;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.totalSave {
+    color: #338110 !important;
+}
+
+.orderRow h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #707070;
+}
+
+.orderTotalRow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #161b48;
+    border-bottom: 1px solid #161b48;
+    padding: 10px 0;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+
+.orderCheckout {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.orderCheckout .paypalCheck {
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    /* overflow: hidden; */
+    border: none;
+    outline: none;
+    color: #fff;
+    /* color: #161b48; */
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+}
+
+.orderCheckout .paypalCheck strong {
+    width: 100%;
+    height: 100%;
+    background-color: #161b48;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#paypalBtnShow {
+    width: 100%;
+    height: 100%;
+}
+.orderCheckout .paypalCheck button {
+    width: 100%;
+    height: 100%;
+    /* background-color: #161b48; */
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    /* font-style: italic; */
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.orderCheckout .paypalCheck button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.orderCheckout .paypalCheck div {
+    /* width: 100%;
+    height: 100%; */
+}
+
+.orderCheckout .paypalCheck i {
+    margin-right: 5px;
+}
+
+
+.paypal-button-number-1 {
+    display: none !important;
+}
+
+.paypal-button-row.paypal-button-layout-vertical {
+    display: none !important;
+}
+
+
+
+.orderCheckout .stripeCheck {
+    width: 260px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    background-color: #483a80;
+    overflow: hidden;
+}
+
+.cashCheck {
+    border-radius: 5px;
+    padding: 15px;
+    height: 50px;
+    color: #2b354f;
+    border: none;
+    font-size: 1em;
+    background-color: #ffbc3b;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.cashCheck:hover {
+    background-color: #cd952d;
+    color: #fff;
+}
+
+.orderCheckout .stripeCheck span:first-child {
+    width: calc(100% - 80px);
+    height: 100%;
+}
+
+.orderCheckout .stripeCheck span:first-child div {
+    width: 100%;
+    height: 100%;
+}
+
+.orderCheckout .stripeCheck span:first-child button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.orderCheckout .stripeCheck span:last-child {
+    width: 80px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #26054e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.paymentRight {
+    width: 325px;
+}
+
+.paymentRight h3 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.orderSummBox {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.orderSumImg {
+    width: 40%;
+    height: 160px;
+}
+
+.orderSumImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    box-shadow: 0px 0px 11px 3px #ccc;
+}
+
+.orderSumInfo {
+    width: calc(100% - 40%);
+    padding-left: 15px;
+}
+
+.orderSumInfo p {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 140%;
+    color: #2B354F;
+    margin-bottom: 5px;
+}
+
+.orderSumInfo span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #483a80;
+}
+
+
+
+
+
+
+.userSelect {
+    margin-bottom: 20px;
+}
+
+.priceTop {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #4a148c;
+    padding: 21px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.priceRadioWrap {
+    width: 45px;
+    height: 100%;
+}
+
+.priceRadio {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 2px solid #4a148c;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radioInner {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: #483a80;
+}
+
+.priceInfo {
+    width: calc(100% - 45px);
+}
+
+.priceInfoRow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priceInfoRow span:first-child {
+    font-size: 16px;
+    line-height: 140%;
+    color: #2B354F;
+    font-weight: 600;
+}
+
+.priceInfoRow span:last-child {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: right;
+    color: #483a80;
+}
+
+/* .priceInfoRow:last-child {
+    justify-content: flex-end;
+} */
+
+.priceInfoRow small {
+    text-decoration: line-through;
+}
+
+
+.priceBottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priceLeft,
+.priceRight {
+    width: 156px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #bfbfbf;
+    text-align: center;
+    cursor: pointer;
+}
+
+.priceLeft span:first-child,
+.priceRight span:first-child {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    color: #61676c;
+    margin-bottom: 4px;
+}
+
+.priceLeft span:last-child,
+.priceRight span:last-child {
+    display: block;
+    font-size: 14px;
+    color: #483a80;
+    font-weight: 600;
+}
+
+
+
+.comboTitle {
+    margin-bottom: 15px !important;
+}
+
+.singleCombo {
+    width: 100%;
+    height: 58px;
+    color: #61676c;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    padding: 0 20px;
+    box-shadow: 0px 0px 14px 2px #e0e0e0;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+}
+
+.singleCombo .comboCheck {
+    margin-right: 20px;
+}
+
+.singleCombo .comboCheck input {
+    scale: 1.7;
+    pointer-events: none;
+}
+
+.singleCombo label {
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+.paymentSupport {
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid rgba(43, 53, 79, 0.42);
+}
+
+.singleSupport {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #2b354fd9;
+    margin-bottom: 10px;
+}
+
+.singleSupport svg {
+    margin-right: 5px;
+}
+
+
+
+
+.trustedPayment {
+    margin-top: 35px;
+}
+
+.trustedPayment p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 170%;
+    color: #2B354F;
+    margin-bottom: 25px;
+}
+
+.trustImgWrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.trustImgWrap img {
+    width: 28%;
+    filter: grayscale(1);
+    opacity: .5;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.trustImgWrap img:hover {
+    opacity: 1;
+    filter: unset;
+}

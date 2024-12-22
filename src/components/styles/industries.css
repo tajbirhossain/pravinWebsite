@@ -1,0 +1,303 @@
+.industries {
+    width: 100%;
+    padding: 40px 10px;
+    background-color: #eceff1;
+}
+
+.industriesInside {
+    width: 93%;
+    /* max-width: 1150px; */
+    margin: 0 auto;
+}
+
+
+.industries-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.industries-top h2 {
+    font-weight: 600;
+    font-size: 23px;
+    color: #4a148c;
+}
+
+
+.industries-top select {
+    width: 37%;
+    border-radius: 7px;
+    padding: 8px 10px;
+    background-color: #eceff1;
+    font-size: 16px;
+    font-weight: 600;
+    color: #545f64;
+}
+
+.industries-top select option {
+    background-color: #fff;
+}
+
+.industries-top select:focus {
+    outline: none;
+}
+
+
+
+
+.industries-btn {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.slick-dots li {
+    margin: 0px !important;
+}
+
+.slick-dots li button:before {
+    opacity: .85 !important;
+    color: #ffffff !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: red !important;
+}
+
+.slick-dots li button:before {
+    font-size: 10px !important;
+}
+
+.main-crowsel {
+    width: 27%;
+    padding: 60px 0px;
+    background: linear-gradient(to top, #9c27b0 0%, #4a148c 100%);
+    border-radius: 10px;
+}
+
+.slider-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.single-slide {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.single-slide img {
+    width: 67%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.single-slide a {
+    font-size: 20px;
+    color: #fff;
+    margin: 15px 0px;
+    text-decoration: none;
+}
+
+.price-slides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smaller {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: line-through;
+    display: block;
+}
+
+
+.bigger {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    display: block;
+}
+
+
+
+
+.book-wrap {
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.single-book {
+    width: 180px;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.single-book img {
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.single-book .single-book-title {
+    font-size: 15px;
+    color: #373d42;
+    transition: .2s;
+    margin: 10px 0px;
+    text-decoration: none;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+.single-book:hover .single-book-title {
+    color: #9c27b0;
+}
+
+
+
+
+.price-slide {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+
+.small-price {
+    font-size: 12px;
+    font-weight: 600;
+    color: #bd3301;
+    text-decoration: line-through;
+}
+
+.big-price {
+    font-weight: 600;
+    color: #bd3301;
+}
+
+
+
+
+
+@media(max-width:1100px) {
+    .industries {
+        padding: 40px 50px;
+    }
+}
+
+
+
+@media(max-width:900px) {
+
+    .industries-btn {
+        flex-wrap: wrap;
+    }
+
+    .main-crowsel {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .book-wrap {
+        width: 100%;
+    }
+
+}
+
+
+@media(max-width:700px) {
+    .main-crowsel {
+        width: 100%;
+    }
+
+    .industries-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .industries-top h2 {
+        margin-bottom: 20px;
+    }
+
+    .industries-top select {
+        width: 100%;
+    }
+}
+
+
+@media(max-width:500px) {
+    .industries {
+        padding: 40px 10px;
+    }
+}
+
+
+
+
+
+
+.preloading h2 {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.loadMoreRep {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    /* background-color: #4a148c; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    margin-top: 25px;
+}
+
+
+
+.bigLoad {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #00000030;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,36 @@
+.privacyPolicy main {
+    width: 93%;
+    /* max-width: 1150px; */
+    margin: 0 auto;
+    padding: 320px 10px 150px 10px;
+}
+
+
+.privacyPolicy main h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.privacyPolicy main h2 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+
+.privacyPolicy main p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.privacyPolicy main ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.privacyPolicy main li {
+    margin-bottom: 10px;
+}
+
+.privacyPolicy main address {
+    font-style: normal;
+}

@@ -1,0 +1,268 @@
+.promiss {
+    width: 100%;
+    background: linear-gradient(to top, #9c27b0 0%, #4a148c 100%);
+}
+
+.promise-wrap {
+    width: 100%;
+    height: 100%;
+    padding: 60px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(/src/images/download.svg);
+    background-position: center;
+    background-repeat: repeat;
+}
+
+
+.promise-left {
+    width: 60%;
+}
+
+.promise-left h3 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.promise-left p {
+    margin: 12px 0px;
+    color: #eaeaea;
+}
+
+
+.promise-left form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.promise-left form input {
+    width: 80%;
+    height: 50px;
+    padding: 0 20px;
+    border: none;
+    background: 0 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background: #ffffff33;
+    padding-left: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.promise-left form input:focus {
+    outline: none;
+}
+
+.promise-left form input::placeholder {
+    color: #caa6da;
+}
+
+
+.promise-left form button {
+    width: 20%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    color: #bb43ef;
+    font-size: 14px;
+    font-weight: 600;
+    background: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: .2s;
+}
+
+.promise-left form button:hover {
+    background-color: #fe5722;
+    color: #fff;
+}
+
+.promise-right {
+    width: 32.5%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.promise-right h4 {
+    font-size: 20px;
+    color: #2b354f !important;
+    text-transform: capitalize !important;
+    padding: 20px !important;
+    border-bottom: 1px solid #eee;
+    margin: 0 !important;
+    margin-bottom: 20px !important;
+    width: 100%;
+    font-weight: 600;
+}
+
+
+.subscribe-wrap {
+    width: 100%;
+}
+
+.single-subscribe {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 6px 10px;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+
+.month-days {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 18px;
+}
+
+.month-days h2 {
+    font-size: 30px;
+    color: #61676c;
+    font-weight: 600;
+    margin-bottom: -6px;
+}
+
+.month-days span {
+    margin: 0;
+    font-size: 10px;
+    line-height: 1;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #61676c;
+}
+
+
+.single-subscribe p {
+    font-size: 16px;
+    color: #61676c;
+}
+
+
+
+.promise-right button {
+    width: 100%;
+    color: #fff;
+    border: none;
+    background: #9c27b0;
+    font-weight: 600;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: .2s;
+}
+
+.promise-right button:hover {
+    background: #852297;
+}
+
+
+
+
+.unicque {
+    position: relative;
+    background: #4a148c;
+}
+
+.unicque::after {
+    position: absolute;
+    content: '';
+    top: 5px;
+    right: 5px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url(/src/images/checkmark.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.unicque p {
+    color: #fff;
+}
+
+.unicque .month-days h2 {
+    color: #fff;
+}
+
+.unicque .month-days span {
+    color: #fff;
+}
+
+
+
+
+
+
+@media(max-width:1300px) {
+    .promise-wrap {
+        padding: 60px 200px;
+    }
+}
+
+@media(max-width:1100px) {
+    .promise-wrap {
+        padding: 60px 100px;
+    }
+}
+
+@media(max-width:900px) {
+    .promise-wrap {
+        padding: 60px 50px;
+    }
+}
+
+@media(max-width:800px) {
+    .promise-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .promise-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .promise-right {
+        width: 60%;
+    }
+}
+
+@media (max-width: 700px) {
+    .promise-right {
+        width: 100%;
+    }
+}
+
+
+@media(max-width:500px) {
+    .promise-wrap {
+        padding: 60px 10px;
+    }
+}
+

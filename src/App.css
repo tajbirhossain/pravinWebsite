@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.bgMain {
+  background: linear-gradient(to top, #9c27b0 0%, #4a148c 100%);
+}
+
+.textMain {
+  color: #9c27b0;
+}
+
+
+.allReports,
+.singleReportPage,
+.reportPayment,
+.subReports,
+.thankYou,
+.contactUs,
+.aboutUs,
+.searchRes,
+.promotion,
+.privacyPolicy {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: clip;
+}
+
+
+
+
+
+
+@media (max-width:1250px) {
+
+  .reportWrap,
+  .paymentWrap {
+    flex-direction: column;
+  }
+
+  .reportWrapLeft,
+  .paymentLeft {
+    width: 100% !important;
+    margin-bottom: 40px;
+  }
+
+  .reportWrapRight,
+  .paymentRight {
+    width: 100% !important;
+  }
+
+  .buyReport,
+  .orderSummBox {
+    width: 350px !important;
+  }
+
+
+  .priceLeft,
+  .priceRight {
+    width: 49% !important;
+  }
+
+  .rightRelated {
+    display: none !important;
+  }
+
+  .relatedReports {
+    display: block !important;
+  }
+
+  .relatedHeading.dis {
+    display: none !important;
+  }
+}
+
+@media (max-width:1100px) {
+  .reportMain h1 {
+    padding: 0 10px;
+  }
+
+  .searchRes h1 {
+    padding: 0 50px !important;
+  }
+
+  .allReports main,
+  .subReports main,
+  .singleReportPage main,
+  .thankYou main,
+  .reportPayment main,
+  .contactUs main,
+  .aboutUs main,
+  .promotion main,
+  .privacyPolicy main {
+    padding-top: 150px !important;
+    padding-bottom: 100px !important;
+  }
+
+  .contact {
+    padding: 100px 50px !important;
+  }
+
+  .reportsWrap {
+    flex-direction: column;
+    padding: 0 50px !important;
+  }
+
+  .reportLeft {
+    width: 100% !important;
+    margin-bottom: 40px;
+  }
+
+  .reportLeft ul {
+    height: 260px;
+    overflow-x: clip;
+    overflow-y: auto;
+  }
+
+  .reportRight {
+    width: 100% !important;
+    padding-left: 0 !important;
+  }
+
+
+  .allReports main,
+  .subReports main,
+  .singleReportPage main,
+  .thankYou main,
+  .reportPayment main,
+  .contactUs main,
+  .aboutUs main,
+  .promotion main,
+  .privacyPolicy main {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .filterWrap {
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .filterWrap a {
+    width: 100% !important;
+    border-radius: unset !important;
+    border-right: none !important;
+    border-bottom: 1px solid #d0d0d0;
+  }
+
+  .filterWrap a:last-child {
+    border-bottom: none !important;
+  }
+
+  .reqSample form {
+    width: 100% !important;
+  }
+
+
+
+  .paymentItems {
+    flex-direction: column;
+  }
+
+  .singlePayment {
+    width: 100% !important;
+    margin-right: 0 !important;
+    border-radius: 0 !important;
+    justify-content: flex-start !important;
+  }
+
+
+
+}
+
+@media (max-width: 700px) {
+  .reportInfo {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .infoItem {
+    width: 100% !important;
+    padding: 10px 15px !important;
+  }
+
+  .infoItem span {
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+  }
+
+  .infoItem span span {
+    width: fit-content !important;
+  }
+
+  .reportsWrap {
+    padding: 0 40px !important;
+  }
+
+  .allReports main,
+  .subReports main,
+  .singleReportPage main,
+  .thankYou main,
+  .reportPayment main,
+  .contactUs main,
+  .aboutUs main,
+  .promotion main,
+  .privacyPolicy main {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+
+  .contactUsFormWrap {
+    flex-direction: column;
+  }
+
+  .contactUsFormWrap form {
+    width: 100% !important;
+    margin-bottom: 35px;
+  }
+
+  .contactUsFormWrap .contactMapWrap {
+    width: 100% !important;
+  }
+
+  .contactUsInfoWrap {
+    flex-direction: column;
+  }
+
+  .contactInfoLeft,
+  .contactInfoRight {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+}
+
+@media (max-width:530px) {
+  .conFormRow {
+    flex-wrap: wrap;
+  }
+
+  .inpWrap {
+    width: 100% !important;
+    margin-bottom: 25px;
+  }
+
+  .inpWrap:nth-child(2) {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .searchRes h1 {
+    padding: 0 10px !important;
+  }
+
+  .contact {
+    padding: 100px 10px !important;
+  }
+
+  .contact form button {
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+  }
+
+  .reportsWrap {
+    padding: 0 10px !important;
+  }
+
+  .allReports main,
+  .subReports main,
+  .singleReportPage main,
+  .thankYou main,
+  .reportPayment main,
+  .contactUs main,
+  .aboutUs main,
+  .promotion main,
+  .privacyPolicy main {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .repBottomSingle {
+    margin-right: 15px !important;
+  }
+
+  .reqSample form .repFormRow {
+    flex-direction: column;
+  }
+
+  .reqSample form .reqInp {
+    width: 100% !important;
+    margin-bottom: 25px;
+  }
+
+  .reqSample form .reqInp:nth-child(2) {
+    margin-bottom: 0;
+  }
+
+
+
+  .payInpRow {
+    flex-direction: column;
+  }
+
+  .payInpWrap {
+    width: 100% !important;
+    margin-bottom: 25px;
+  }
+
+  .payInpWrap:nth-child(2) {
+    margin-bottom: 0;
+  }
+}
+
+
+
+@media (max-width: 450px) {
+  .relatedReportWrap a {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+
+  .single-book {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .buyReport,
+  .orderSummBox {
+    width: 100% !important;
+  }
+}

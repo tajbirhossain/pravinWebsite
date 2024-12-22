@@ -1,0 +1,22 @@
+.kjhgfgd li {
+    color: #666 !important;
+}
+
+
+
+.kjhgfgd li a {
+    color: #666 !important;
+    transition: .1s;
+}
+
+.kjhgfgd li a:hover {
+    color: #9726ae !important;
+    text-decoration: underline !important;
+}
+
+
+.kjhgfgd .main-listsss a:hover {
+    text-decoration: none !important;
+}
+
+

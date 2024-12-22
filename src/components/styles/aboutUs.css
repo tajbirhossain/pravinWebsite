@@ -1,0 +1,27 @@
+.aboutUs header {
+    /* background-image: linear-gradient(to top, #9c27b0 0%, #4a148c 100%); */
+}
+
+.aboutUs main {
+    padding: 320px 10px 150px 10px;
+}
+
+.aboutUsInside {
+    width: 93%;
+    /* max-width: 1150px; */
+    margin: 0 auto;
+}
+
+.aboutMain p b {
+    font-weight: 600;
+}
+.aboutMain p {
+    margin-bottom: 20px;
+}
+.aboutMain h4 {
+    margin-bottom: 5px;
+}
+.aboutMain p strong {
+    color: #4a148c;
+    font-weight: 600;
+}

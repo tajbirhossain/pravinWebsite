@@ -1,0 +1,99 @@
+.allReports header {
+    /* background-image: linear-gradient(to top, #9c27b0 0%, #4a148c 100%); */
+}
+
+.allReports main {
+    padding-top: 320px;
+    padding-bottom: 150px;
+}
+
+.allReports main h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #2b354f;
+    margin-bottom: 30px;
+}
+
+.reportsWrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 10px;
+    width: 93%;
+    /* max-width: 1150px; */
+    margin: 0 auto;
+}
+
+.reportLeft {
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 1px 1px 14px -1px #ccc;
+    padding-bottom: 15px;
+}
+
+.repTopTitle {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.repTopTitle h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2b354f;
+}
+
+.reportLeft ul li {
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.reportLeft ul li img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-right: 8px;
+    filter: grayscale(100);
+}
+
+
+.reportRight {
+    width: calc(100% - 300px);
+    padding-left: 50px;
+}
+
+
+
+
+.pageWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.pageWrap span {
+    width: 50px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b354f;
+    cursor: pointer;
+}
+
+.pageWrap span:nth-child(2) {
+    background-color: #fff;
+    cursor: unset;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.pageWrap span img {
+    width: 15px;
+    filter: invert(100%);
+}

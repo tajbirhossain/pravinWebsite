@@ -1,0 +1,56 @@
+<div className="main-crowsel">
+                    <div className="slider-container">
+                        <Slider {...settings}>
+                            <div>
+                                <div className="single-slide">
+                                    <img src={a} alt="" />
+                                    <Link to={"/"}>Global Spatial Computing Market By Type (Virtual Reality, Mixed Reality,)</Link>
+                                    <div className="price-slides">
+                                        <span className="smaller">US $5,900</span>
+                                        <span className="bigger">US $2,999</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="single-slide">
+                                    <img src={a} alt="" />
+                                    <Link to={"/"}>Global Spatial Computing Market By Type (Virtual Reality, Mixed Reality,)</Link>
+                                    <div className="price-slides">
+                                        <span className="smaller">US $5,900</span>
+                                        <span className="bigger">US $2,999</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="single-slide">
+                                    <img src={a} alt="" />
+                                    <Link to={"/"}>Global Spatial Computing Market By Type (Virtual Reality, Mixed Reality,)</Link>
+                                    <div className="price-slides">
+                                        <span className="smaller">US $5,900</span>
+                                        <span className="bigger">US $2,999</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="single-slide">
+                                    <img src={a} alt="" />
+                                    <Link to={"/"}>Global Spatial Computing Market By Type (Virtual Reality, Mixed Reality,)</Link>
+                                    <div className="price-slides">
+                                        <span className="smaller">US $5,900</span>
+                                        <span className="bigger">US $2,999</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </Slider>
+                    </div>
+                </div>
+                <div className="book-wrap">
+                    <Singlebook />
+                    <Singlebook />
+                    <Singlebook />
+                    <Singlebook />
+                    <Singlebook />
+                    <Singlebook />
+                    <Singlebook />
+                    <Singlebook />
+                </div>
